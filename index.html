@@ -1,1 +1,157 @@
-
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schulentwickler – Zukunft gestalten</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --accent: #38b6ff;
+            --background: #f4f7fa;
+            --text: #222;
+            --white: #fff;
+            --gray: #e5e7eb;
+        }
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background: var(--primary);
+            color: var(--white);
+            padding: 2.5rem 0 2rem 0;
+            text-align: center;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            box-shadow: 0 2px 8px rgba(30, 64, 175, 0.15);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.7rem;
+        }
+        header p {
+            font-size: 1.25rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+        main {
+            max-width: 850px;
+            margin: 2.5rem auto 0 auto;
+            padding: 2rem;
+            background: var(--white);
+            border-radius: 20px;
+            box-shadow: 0 2px 14px rgba(0,0,0,0.07);
+        }
+        section {
+            margin-bottom: 2.5rem;
+        }
+        h2 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+        ul {
+            padding-left: 1.4rem;
+        }
+        .cta {
+            display: block;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            color: var(--white);
+            font-size: 1.15rem;
+            font-weight: 700;
+            text-align: center;
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            margin: 2.5rem auto 0 auto;
+            width: max-content;
+            box-shadow: 0 3px 12px rgba(56,182,255,0.15);
+            transition: background 0.2s;
+        }
+        .cta:hover {
+            background: linear-gradient(90deg, var(--accent), var(--primary));
+        }
+        footer {
+            background: var(--gray);
+            color: #555;
+            margin-top: 3rem;
+            padding: 2rem 1rem 1rem 1rem;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            text-align: center;
+            font-size: 0.98rem;
+        }
+        .footer-section {
+            margin-bottom: 1.2rem;
+        }
+        @media (max-width: 600px) {
+            main {
+                padding: 1rem;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Schulentwickler</h1>
+        <p>Gemeinsam Schule gestalten, Zukunft sichern. Wir begleiten Schulen bei der nachhaltigen Entwicklung und Innovation.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Was wir tun</h2>
+            <p>
+                Schulentwicklung ist ein fortlaufender Prozess, der Vision, Mut und Zusammenarbeit erfordert.
+                Wir unterstützen Schulen, Teams und Schulleitungen mit modernen Methoden, fachlicher Expertise 
+                und maßgeschneiderten Konzepten.
+            </p>
+        </section>
+        <section>
+            <h2>Unsere Schwerpunkte</h2>
+            <ul>
+                <li>Entwicklung von Schulprogrammen und Leitbildern</li>
+                <li>Begleitung von Digitalisierungsprozessen</li>
+                <li>Fortbildungen &amp; Teamentwicklung</li>
+                <li>Prozessberatung und Change Management</li>
+                <li>Konfliktmoderation und Kommunikation</li>
+                <li>Qualitätsmanagement und Evaluation</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Unser Ansatz</h2>
+            <p>
+                Wir setzen auf partizipative Prozesse, individuelle Lösungen und nachhaltige Entwicklung – immer
+                mit Blick auf die Bedürfnisse Ihrer Schule und der Menschen, die sie gestalten.
+            </p>
+            <a href="#kontakt" class="cta">Jetzt Kontakt aufnehmen</a>
+        </section>
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>
+                Haben Sie Fragen oder möchten Sie einen Beratungstermin vereinbaren?<br>
+                Schreiben Sie uns eine E-Mail:<br>
+                <a href="mailto:info@schulentwickler.at" style="color: var(--primary); text-decoration: underline;">info@schulentwickler.at</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-section">
+            <strong>Impressum</strong><br>
+            Roland Bair<br>
+            Schulentwickler.at<br>
+            E-Mail: <a href="mailto:info@schulentwickler.at" style="color: var(--primary); text-decoration: underline;">info@schulentwickler.at</a><br>
+        </div>
+        <div>
+            &copy; 2025 Schulentwickler. Alle Rechte vorbehalten.
+        </div>
+    </footer>
+</body>
+</html>
